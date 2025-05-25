@@ -16,8 +16,8 @@ function Variants() {
 
 
   const handleSelection = (event, index, variant) => {
-    setDataToStorage('selectedVariant', variant, 2, index)
-    setDataToStorage('thumbIndex', 0, 2)
+    setDataToStorage('selectedVariant', variant, index)
+    setDataToStorage('thumbIndex', 0)
     selectVariant(variant, index, 'variant')
     setSelectedVariant(event.currentTarget.dataset.name)
   }

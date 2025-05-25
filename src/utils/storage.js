@@ -1,9 +1,10 @@
 export function setDataToStorage(key, value, variantIndex = 0) {
   const now = Date.now();
+  const minutes = 15
   const item = {
     value,
     variantIndex,
-    expiry: now + 2 * 1000 * 60,
+    expiry: now + minutes * 1000 * 60,
   };
   localStorage.setItem(key, JSON.stringify(item));
 }
