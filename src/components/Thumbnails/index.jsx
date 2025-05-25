@@ -61,7 +61,7 @@ function Thumbnails() {
   ))
 
 
-   return <div className='flex gap-2'>{Children.toArray(thumbnails)}</div>
+   return <div className="hidden lg:flex gap-2">{Children.toArray(thumbnails)}</div>
 
 
 }

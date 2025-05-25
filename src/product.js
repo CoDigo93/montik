@@ -21,8 +21,8 @@
           "/assets/purple/main_purple_phone@1.webp",
           "/assets/purple/main_purple_phone@2.webp",
           "/assets/purple/main_purple_phone@3.webp",
-          "/assets/purple/main_purple_phone@4.webp",
-          "/assets/purple/main_purple_phone@5.webp"
+          "/assets/purple/main_purple_phone@4.webp"
+
 
         ],
         "thumbnails": [
@@ -30,7 +30,7 @@
           "/assets/purple/thumb_purple_phone@2.webp",
           "/assets/purple/thumb_purple_phone@3.webp",
           "/assets/purple/thumb_purple_phone@4.webp",
-          "/assets/purple/thumb_purple_phone@5.webp"
+
         ]
   }
     },
@@ -43,7 +43,7 @@
           "/assets/primer/main_primer_phone@2.webp",
           "/assets/primer/main_primer_phone@3.webp",
           "/assets/primer/main_primer_phone@4.webp",
-          "/assets/primer/main_primer_phone@5.webp"
+
 
         ],
         "thumbnails": [
@@ -51,7 +51,7 @@
           "/assets/primer/thumb_primer_phone@2.webp",
           "/assets/primer/thumb_primer_phone@3.webp",
           "/assets/primer/thumb_primer_phone@4.webp",
-          "/assets/primer/thumb_primer_phone@5.webp"
+
         ]
   }
     },
@@ -64,7 +64,7 @@
           "/assets/nora/main_nora_phone@2.webp",
           "/assets/nora/main_nora_phone@3.webp",
           "/assets/nora/main_nora_phone@4.webp",
-          "/assets/nora/main_nora_phone@5.webp"
+
 
         ],
         "thumbnails": [
@@ -72,7 +72,7 @@
           "/assets/nora/thumb_nora_phone@2.webp",
           "/assets/nora/thumb_nora_phone@3.webp",
           "/assets/nora/thumb_nora_phone@4.webp",
-          "/assets/nora/thumb_nora_phone@5.webp"
+
         ]
   }
     }

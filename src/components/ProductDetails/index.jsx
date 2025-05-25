@@ -8,7 +8,7 @@ import PurchaseButton from '../PurchaseButton'
 function ProductDetails() {
   const percentageDiscount = Math.ceil(((product.price.current * 100) / product.price.original) - 100)
   return (
-    <div className="flex flex-col items-start">
+    <div className="flex flex-col items-start sm:w-[314px] md:w-314px ">
       <h1 className="font-black flex responsive-h1">
         {product.name.toUpperCase()} <span className="font-black text-xl">®</span>
       </h1>
