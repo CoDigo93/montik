@@ -47,7 +47,7 @@ function ZipCode() {
   };
 
   return (
-    <section className="p-4 flex-col border-t-2 border-[#f5f5f5] mt-8 w-[30vw]">
+    <section className="p-4 flex-col border-t-2 border-[#f5f5f5] mt-8 px-0 lg:w-[30vw]">
       <div className="w-full max-w-sm flex items-center justify-left gap-4 mb-4">
         <label htmlFor="zip" className="block mb-1 font-thin">CEP</label>
         <input
@@ -62,7 +62,7 @@ function ZipCode() {
       </div>
 
       {address && (
-        <div className="text-sm text-[#000] bg-[#F5F5F5] p-3 w-full font-thin flex gap-4 items-center">
+        <div className="text-sm text-[#000] bg-[#F5F5F5] p-3 w-[314px] lg:w-[30vw] font-thin flex gap-4 items-center">
           <img className="w-6 h-6" src={shippingIcon} alt="shipping" /> {address}
         </div>
       )}
