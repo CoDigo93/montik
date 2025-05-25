@@ -9,14 +9,13 @@ function Sizes() {
   const storedSize = getStoredData('selectedSize')?.item
   const [selectedSize, setSelectedSize] = useState(stateProduct?.selectedSize)
 
-  console.log(storedSize)
 
   const handleSizeSelection = (size) => {
     setSelectedSize(size)
     setDataToStorage('selectedSize', size)
   }
 
-  console.log(storedSize)
+
 
   return (
     <section className='flex mt-2 gap-2'>
